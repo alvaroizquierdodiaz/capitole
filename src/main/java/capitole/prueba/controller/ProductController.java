@@ -1,9 +1,9 @@
-package acidtango.prueba.controller;
+package capitole.prueba.controller;
 
-import acidtango.prueba.controller.handler.ControllerExceptionHandler;
-import acidtango.prueba.dto.ProductOutputDto;
-import acidtango.prueba.exception.EntityNotFoundException;
-import acidtango.prueba.service.ProductService;
+import capitole.prueba.controller.handler.ControllerExceptionHandler;
+import capitole.prueba.dto.ProductOutputDto;
+import capitole.prueba.exception.EntityNotFoundException;
+import capitole.prueba.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -25,8 +25,8 @@ public class ProductController {
 	 */
 	@GetMapping
 	public ResponseEntity<ProductOutputDto> findProducts(@PathParam(value = "actualDate") String actualDate,
-																											 @PathParam(value = "productId") Long productId,
-																											 @PathParam(value = "brandId") Integer brandId)
+                                                       @PathParam(value = "productId") Long productId,
+                                                       @PathParam(value = "brandId") Integer brandId)
 	        throws EntityNotFoundException {
 		return ResponseEntity.ok(productService.findProducts(actualDate, productId, brandId));
 	}

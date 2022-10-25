@@ -1,8 +1,8 @@
-package acidtango.prueba.service;
+package capitole.prueba.service;
 
-import acidtango.prueba.dto.ProductOutputDto;
-import acidtango.prueba.exception.EntityNotFoundException;
-import acidtango.prueba.repository.ProductRepository;
+import capitole.prueba.dto.ProductOutputDto;
+import capitole.prueba.exception.EntityNotFoundException;
+import capitole.prueba.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.var;
 import org.springframework.beans.factory.annotation.Autowired;

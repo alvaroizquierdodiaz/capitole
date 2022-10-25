@@ -73,6 +73,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/capitole/prueba/constant/SwaggerConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/application.properties">
           <value>
             <set />

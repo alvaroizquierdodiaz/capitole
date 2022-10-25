@@ -1,10 +1,10 @@
-package acidtango.prueba.repository;
+package capitole.prueba.repository;
 
 import java.sql.Timestamp;
 import java.util.stream.Stream;
 
-import acidtango.prueba.domain.Product;
-import acidtango.prueba.domain.ProductPK;
+import capitole.prueba.domain.Product;
+import capitole.prueba.domain.ProductPK;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

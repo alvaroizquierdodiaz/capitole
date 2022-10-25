@@ -1,7 +1,7 @@
-package acidtango.prueba.dto;
+package capitole.prueba.dto;
 
-import acidtango.prueba.domain.Product;
-import acidtango.prueba.domain.ProductPK;
+import capitole.prueba.domain.Product;
+import capitole.prueba.domain.ProductPK;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

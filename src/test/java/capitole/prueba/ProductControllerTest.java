@@ -1,7 +1,9 @@
-package acidtango.prueba;
+package capitole.prueba;
 
 import java.net.URI;
 
+import capitole.prueba.dto.ProductBaseDto;
+import capitole.prueba.dto.ProductOutputDto;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,9 +15,6 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.util.UriComponentsBuilder;
-
-import acidtango.prueba.dto.ProductBaseDto;
-import acidtango.prueba.dto.ProductOutputDto;
 
 @SpringBootTest(classes = Application.class, webEnvironment = WebEnvironment.RANDOM_PORT)
 class ProductControllerTest {

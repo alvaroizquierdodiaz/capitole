@@ -1,4 +1,4 @@
-package acidtango.prueba.exception;
+package capitole.prueba.exception;
 
 public class EntityNotFoundException extends Exception {
 

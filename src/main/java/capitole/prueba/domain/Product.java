@@ -1,4 +1,4 @@
-package acidtango.prueba.domain;
+package capitole.prueba.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

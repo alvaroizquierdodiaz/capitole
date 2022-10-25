@@ -1,4 +1,4 @@
-package acidtango.prueba.dto;
+package capitole.prueba.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

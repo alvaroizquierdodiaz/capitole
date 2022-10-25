@@ -30,13 +30,13 @@ Devuelva como datos de salida: identificador de producto, identificador de caden
  
 Se debe utilizar una base de datos en memoria (tipo h2) e inicializar con los datos del ejemplo, (se pueden cambiar el nombre de los campos y añadir otros nuevos si se quiere, elegir el tipo de dato que se considere adecuado para los mismos).
               
-Desarrollar unos test al endpoint rest que  validen las siguientes peticiones al servicio con los datos del ejemplo:
+Desarrollar unos test al endpoint rest que validen las siguientes peticiones al servicio con los datos del ejemplo:
                                                                                        
-- Test 1: petición a las 10:00 del día 14 del producto 35455   para la brand 1 (ZARA)
-- Test 2: petición a las 16:00 del día 14 del producto 35455   para la brand 1 (ZARA)
-- Test 3: petición a las 21:00 del día 14 del producto 35455   para la brand 1 (ZARA)
-- Test 4: petición a las 10:00 del día 15 del producto 35455   para la brand 1 (ZARA)
-- Test 5: petición a las 21:00 del día 16 del producto 35455   para la brand 1 (ZARA)
+- Test 1: petición a las 10:00 del día 14 del producto 35455 para la brand 1 (ZARA)
+- Test 2: petición a las 16:00 del día 14 del producto 35455 para la brand 1 (ZARA)
+- Test 3: petición a las 21:00 del día 14 del producto 35455 para la brand 1 (ZARA)
+- Test 4: petición a las 10:00 del día 15 del producto 35455 para la brand 1 (ZARA)
+- Test 5: petición a las 21:00 del día 16 del producto 35455 para la brand 1 (ZARA)
 
 # Se valorará:
 
@@ -56,7 +56,7 @@ Hay que tener lo siguiente instalado:
 
 Para poder ejecutar la aplicación hay que seguir los siguientes pasos:
 
-- Acceder desde un terminal a la carpeta de acidtango-prueba
+- Acceder desde un terminal a la carpeta de capitole
 - Ejecutar el comando: mvn spring-boot:run
 - Acceder a la URL: http://localhost:8080/swagger-ui/index.html
 - Para poder probar el controlador, indicar los valores correspondientes y pulsar en "Execute". Ejemplo de resultado válido:
@@ -67,6 +67,6 @@ Para poder ejecutar la aplicación hay que seguir los siguientes pasos:
 
 Para poder ejecutar los test, hay que:
 
-- Acceder desde un terminal a la carpeta de acidtango-prueba
+- Acceder desde un terminal a la carpeta de capitole
 - Ejecutar el comando: mvn test
 

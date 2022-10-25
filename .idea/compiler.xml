@@ -3,19 +3,21 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for prueba.tecnica" enabled="true">
+      <profile name="Annotation profile for prueba" enabled="true">
         <sourceOutputDir name="target/generated-sources" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
         </processorPath>
+        <module name="capitole-prueba" />
         <module name="prueba.tecnica" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="capitole-prueba" options="-parameters" />
       <module name="prueba.tecnica" options="-parameters" />
     </option>
   </component>

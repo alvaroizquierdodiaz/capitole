@@ -1,6 +1,6 @@
-package acidtango.prueba.configuration;
+package capitole.prueba.configuration;
 
-import acidtango.prueba.constant.SwaggerConstants;
+import capitole.prueba.constant.SwaggerConstants;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
